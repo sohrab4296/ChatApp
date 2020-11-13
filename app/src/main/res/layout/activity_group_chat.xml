@@ -60,7 +60,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/logo_app"/>
+            android:src="@drawable/send_files"/>
 
         <EditText
             android:id="@+id/input_group_message"
