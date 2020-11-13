@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,8 +13,9 @@
         android:layout_height="250dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="50dp"
-        android:src="@drawable/logo_app"
+        android:src="@drawable/profile_image_logo_start"
         android:layout_centerHorizontal="true"/>
+
     <EditText
         android:id="@+id/set_user_name"
         android:layout_below="@+id/profile_image"
@@ -25,8 +26,7 @@
         android:padding="5dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="User Name"
-        android:text="MACE-"
+        android:hint="User Name..."
         android:inputType="text"
         android:textColorHint="#333333"
         android:textColor="#000000"/>
@@ -40,7 +40,7 @@
         android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:drawableStart="@drawable/edit_status"
-        android:hint="Department"
+        android:hint="Department..."
         android:inputType="text"
         android:padding="5dp"
         android:textColor="#000000"
@@ -57,4 +57,5 @@
         android:text="Save Profile"
         android:textColor="#ffffff"
         android:textSize="20sp" />
+
 </RelativeLayout>

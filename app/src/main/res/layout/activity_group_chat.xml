@@ -64,7 +64,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/logo_app"/>
+            android:src="@drawable/send_files"/>
 
         <EditText
             android:id="@+id/input_group_message"
@@ -81,7 +81,7 @@
             android:id="@+id/send_message_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:background="@android:color/transparent"
             android:text="Send"
             android:textStyle="bold"

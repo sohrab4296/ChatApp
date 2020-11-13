@@ -34,7 +34,7 @@
             android:id="@+id/send_file_button"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/logo_app"
+            android:src="@drawable/send_files"
             android:scaleType="centerCrop"
             android:background="@android:color/transparent"/>
 
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:hint="Enter The Message."
+            android:hint="Enter The Message..."
             android:padding="15dp"
             android:textColor="#000000"
             android:textColorHint="#333333" />
@@ -53,7 +53,7 @@
             android:id="@+id/send_message_button_private"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:background="@android:color/transparent"
             android:text="Send"
             android:textStyle="bold"
