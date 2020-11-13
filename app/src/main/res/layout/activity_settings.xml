@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@android:color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_app"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/set_user_name"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/edit_profile"
+        android:padding="5dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:text="MACE-"
+        android:inputType="text"
+        android:textColorHint="#333333"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/set_profile_status"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/edit_status"
+        android:hint="Department"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textColorHint="#333333" />
+
+    <Button
+        android:id="@+id/update_settings_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_profile_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="Save Profile"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneLoginActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/phone_image_setup"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_app"/>
+    <EditText
+        android:id="@+id/phone_number_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_image_setup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/phone"
+        android:padding="10dp"
+        android:hint="+916355040470"
+        android:inputType="phone"
+        android:textColorHint="#888888"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/send_ver_code_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number_input"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Send Verification Code"
+        android:padding="10dp"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/verification_code_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_image_setup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/phone"
+        android:padding="10dp"
+        android:hint="Verification Code."
+        android:inputType="number"
+        android:textColorHint="#333333"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/verify_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verification_code_input"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Verify Code"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:visibility="invisible"/>
+</RelativeLayout>
