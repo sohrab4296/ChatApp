@@ -32,6 +32,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/logo_app"/>
+
                 <TextView
                     android:id="@+id/group_chat_text_display"
                     android:layout_width="match_parent"
@@ -41,8 +42,11 @@
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:layout_marginBottom="20dp"/>
+
             </LinearLayout>
+
         </ScrollView>
+
     </LinearLayout>
 
 
@@ -60,7 +64,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/send_files"/>
+            android:src="@drawable/logo_app"/>
 
         <EditText
             android:id="@+id/input_group_message"
@@ -68,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:hint="Enter Your Message..."
+            android:hint="Enter The Message."
             android:padding="15dp"
             android:textColor="#000000"
             android:textColorHint="#333333" />
@@ -83,5 +87,6 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="@color/colorAccent" />
+
     </LinearLayout>
 </RelativeLayout>

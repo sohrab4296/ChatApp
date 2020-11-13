@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,9 +23,8 @@
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="90dp"
                 android:src="@drawable/logo_app" />
-
             <EditText
                 android:id="@+id/login_email"
                 android:layout_width="250dp"
@@ -37,11 +35,10 @@
                 android:drawableStart="@drawable/email"
                 android:inputType="textEmailAddress"
                 android:padding="2dp"
-                android:layout_marginTop="70dp"
-                android:hint="Enter Email ID..."
+                android:layout_marginTop="100dp"
+                android:hint="Enter Email ID"
                 android:textColorHint="#333333"
                 android:textColor="#000000"/>
-
             <EditText
                 android:id="@+id/login_password"
                 android:layout_width="250dp"
@@ -52,35 +49,32 @@
                 android:drawableStart="@drawable/password"
                 android:inputType="textPassword"
                 android:padding="2dp"
-                android:layout_marginTop="20dp"
-                android:hint="Enter Password..."
+                android:layout_marginTop="25dp"
+                android:hint="Enter Password"
                 android:textColorHint="#333333"
                 android:textColor="#000000"/>
-
             <TextView
                 android:id="@+id/forget_password_link"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/login_password"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="5dp"
                 android:textAlignment="textEnd"
                 android:textColor="#000000"
                 android:textStyle="bold"
                 android:text="Forget password?"/>
-
             <Button
                 android:id="@+id/login_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:background="@color/colorAccent"
                 android:text="Login"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_below="@id/forget_password_link"
                 android:layout_centerHorizontal="true"
                 android:textSize="14sp"
                 />
-
             <TextView
                 android:id="@+id/need_account_link"
                 android:layout_width="300dp"
@@ -90,19 +84,17 @@
                 android:layout_marginTop="10dp"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:text="Need New Account?... Click Here"/>
-
+                android:text="Need New Account. Click Here"/>
             <TextView
                 android:id="@+id/login_using"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/need_account_link"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:text="OR Login Using Phone Number..."/>
-
+                android:text="or Login Using"/>
             <Button
                 android:id="@+id/phone_login_button"
                 android:layout_width="250dp"

@@ -14,7 +14,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
-
             <ImageView
                 android:id="@+id/register_image"
                 android:layout_width="150dp"
@@ -23,22 +22,20 @@
                 android:layout_marginTop="100dp"
                 android:layout_centerHorizontal="true"
                 />
-
             <EditText
                 android:id="@+id/register_email"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/register_image"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="120dp"
+                android:layout_below="@id/register_image"
                 android:background="@android:color/transparent"
                 android:drawableStart="@drawable/email"
-                android:hint="Enter Email ID..."
                 android:inputType="textEmailAddress"
                 android:padding="2dp"
-                android:textColor="#000000"
-                android:textColorHint="#333333" />
-
+                android:layout_marginTop="220dp"
+                android:hint="Enter Email ID"
+                android:textColorHint="#333333"
+                android:textColor="#000000"/>
             <EditText
                 android:id="@+id/register_password"
                 android:layout_width="250dp"
@@ -50,10 +47,9 @@
                 android:inputType="textPassword"
                 android:padding="2dp"
                 android:layout_marginTop="20dp"
-                android:hint="Enter Password..."
+                android:hint="Enter Password"
                 android:textColorHint="#333333"
                 android:textColor="#000000"/>
-
             <Button
                 android:id="@+id/register_button"
                 android:layout_width="250dp"
@@ -66,7 +62,6 @@
                 android:layout_centerHorizontal="true"
                 android:textSize="14sp"
                 />
-
             <TextView
                 android:id="@+id/already_have_account_link"
                 android:layout_width="300dp"
@@ -76,7 +71,6 @@
                 android:layout_marginTop="10dp"
                 android:textStyle="bold"
                 android:text="Already have an Account? Click Here"/>
-
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
